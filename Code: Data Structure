@@ -26,3 +26,23 @@
   {'grapefruit', 'orange', 'watermelon', 'banana', 'apple'}
   grapefruit
   {'orange', 'watermelon', 'banana', 'apple'}
+
+##Data structure: Dictionary(stores mappings of unique keys to values), (mutable)
+  elements = {"hydrogen": 1, "helium": 2, "carbon": 6}
+  print(elements["helium"])  # print the value mapped to "helium"
+  elements["lithium"] = 3  # insert "lithium" with a value of 3 into the dictionary
+  print("carbon" in elements)
+  print(elements.get("dilithium")) #use .get() instead of elements['dilithium'] to check if a key is in the dic to avoid crash
+  out:
+  True
+  None
+
+  #Identity Operators
+  is	evaluates if both sides have the same identity
+  is not	evaluates if both sides have different identities
+    n = elements.get("dilithium")
+    print(n is None)
+    print(n is not None)
+    out:
+    True
+    False
