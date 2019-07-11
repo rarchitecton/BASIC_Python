@@ -27,7 +27,7 @@
   grapefruit
   {'orange', 'watermelon', 'banana', 'apple'}
 
-##Data structure: Dictionary(stores mappings of unique keys to values), (mutable) (only unmutable data types can be key)
+##Data structure: Dictionary(stores mappings of unique keys to values), (mutable,unordered) (only unmutable data types can be key)
   elements = {"hydrogen": 1, "helium": 2, "carbon": 6}
   print(elements["helium"])  # print the value mapped to "helium"
   elements["lithium"] = 3  # insert "lithium" with a value of 3 into the dictionary
