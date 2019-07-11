@@ -7,7 +7,7 @@
   print("The last occurence of the word 'you' occurs at the {}th index.".format(verse.rfind('you')))
   print("The word 'you' occurs {} times in the verse.".format(verse.count('you')))
 
-##Data structure: sets (container of unique elements of list), (mutable and unordered)
+##Data structure: sets (container of unique elements of list), (mutable and unordered, cannot be sorted)
   #get unique elements from a list
   numbers = [1, 2, 6, 3, 1, 1, 6]
   unique_nums = set(numbers)
